@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="script/script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,400;1,800&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+
+<body>
+
+  <header>
+    <main>
+      <div id="container_part_1">
+        <div class="period">
+          <label for="day" class="period_title">DAY</label>
+
+          <input type="text" placeholder="DD" class="period_input" maxlength="2" id="day">
+
+        </div>
+
+        <div class="period">
+          <label for="day" class="period_title">MONTH</label>
+
+          <input type="text" placeholder="MM" class="period_input" maxlength="2" id="month">
+
+        </div>
+
+        <div class="period">
+          <label for="day" class="period_title">YEAR</label>
+
+          <input type="text" placeholder="YYYY" class="period_input" maxlength="4" id="year">
+
+        </div>
+
+
+      </div>
+
+      <div id="line_w_btn">
+        <div id="line"></div>
+        <button id="btn" onclick="age()"><img src="img/arrow-down_icon-icons.com_72377.svg"></button>
+      </div>
+
+      <div id="container_part_2">
+        <div class="period_result">
+          <label for="year_result" id="year_2">--</label>
+          <p class="period_title_2">years</p>
+        </div>
+
+        <div class="period_result">
+          <label for="month_2" id="month_2">--</label>
+          <p class="period_title_2">months</p>
+        </div>
+
+        <div class="period_result">
+          <label for="day_2" id="day_2">--</label>
+          <p class="period_title_2">days</p>
+        </div>
+      </div>
+
+    </main>
+
+  </header>
+
+
+</body>
+
+</html>
