@@ -22,7 +22,7 @@ main{
 
 #container_part_1{
     display: flex;
-    width: 72%;
+    width: 77%;
 }
 
 
@@ -43,7 +43,7 @@ main{
 .period_input{
     font-size: 32px;
     font-weight: bold;
-    height: 100%;
+    height: 22px;
     width: 95%;
     padding: 8%;
     padding-left: 15%;
@@ -158,4 +158,12 @@ img{
         margin-bottom: auto;
     }
 
+}
+
+
+.error{
+    display: none;
+    color: red;
+    font-size: 8px;
+    margin-top: 1%;
 }
