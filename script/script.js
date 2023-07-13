@@ -29,7 +29,7 @@ function age() {
         year_result -= 1
     }
 
-    if (year > 2023 || year < 0){
+    if (year > 2023 || year < 1 ){
         year_input.style.borderColor = 'red';
         year_error.style.display = 'block';
         error_occurred = true;
@@ -51,7 +51,7 @@ function age() {
         month_error.style.display = 'none'
     }
 
-    if (day > 31 || day < 0){
+    if (day > 31 || day < 1){
         day_input.style.borderColor = 'red'
         day_error.style.display = 'block'
         error_occurred = true
