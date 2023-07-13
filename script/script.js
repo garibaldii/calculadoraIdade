@@ -71,4 +71,4 @@ function age() {
     document.getElementById("month_2").innerHTML = month_result;
     document.getElementById("day_2").innerHTML = day_result;
 
-}
+};
